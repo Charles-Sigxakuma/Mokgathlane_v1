@@ -1,0 +1,222 @@
+/* General Styles */
+.quote-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote-container {
+    position: relative;
+}
+
+.quote-subtitle {
+    font-size: 20px;
+    color: #132bc2;
+    margin-bottom: 10px;
+    
+}
+
+.quote-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center aligns the heading and bar */
+    margin-bottom: 20px;
+}
+
+.vertical-bar {
+    width: 4px; /* Thickness of the vertical bar */
+    height: 40px; /* Height of the vertical bar */
+    background-color: rgb(12, 46, 197); /* Color of the vertical bar */
+    margin-right: 10px; /* Spacing between the bar and the heading */
+}
+
+.quote-heading {
+    font-size: 28px;
+    color: #190cce;
+    margin: 0; /* Remove default margin */
+}
+
+.quote-description {
+    font-size: 16px;
+    color: #555;
+}
+
+
+section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-field {
+    flex: 1 1 48%;
+}
+
+.form-field.full-width {
+    flex: 1 1 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none; /* Prevent resizing */
+}
+
+/* Checkbox Styles */
+label {
+    font-size: 16px;
+    display: block;
+}
+
+/* Button Styles */
+button-1{
+    width: 100%; /* Make button full width */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darken on hover */
+}
+/* General Form Styles */
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Flex Styles */
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Input Field Styles */
+.input-field {
+    flex: 1 1 48%;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Services Selection Styles */
+.services-selection {
+    flex: 1 1 100%;
+    text-align: left;
+}
+.services-selection label {
+    font-size: 16px;
+    color: blue; /* Change label color to blue */
+}
+
+.services-selection div {
+    display: inline-block;
+    margin-right: 15px; /* Add margin for spacing */
+}
+
+/* Submit Button Styles */
+.submit-button {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.submit-button button {
+    padding: 10px 20px;
+    width:100%;
+    font-size: 16px;
+    background-color: #0a0a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.social-box {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.social-box h4 {
+    margin-bottom: 1rem;
+}
+
+.social-box .box {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between the icons */
+}
+
+.social-box a {
+    color: #000; /* Icon color */
+    font-size: 1.5rem; /* Default size */
+    transition: color 0.3s ease;
+}
+
+.social-box a:hover {
+    color: #150ae6; /* Hover color */
+}
+
+/* Ensure the footer is well-defined */
+.footer_section {
+    background: #f8f9fa; /* Footer background color */
+    padding: 1.5rem 0;
+}
+
+.footer_section p {
+    text-align: center;
+    margin: 0;
+    color: #333; /* Footer text color */
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .social-box a {
+        font-size: 1.3rem; /* Smaller size for mobile */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .social-box .box {
+        flex-direction: column; /* Stack icons vertically */
+        align-items: center; /* Center align icons */
+    }
+
+    .social-box a {
+        margin-bottom: 0.5rem; /* Space between stacked icons */
+    }
+}
+
+
